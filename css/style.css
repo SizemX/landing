@@ -1,0 +1,91 @@
+.nav__button {
+  border-radius: 20px;
+  padding: 18px 50px;
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+.nav__btn {
+  padding: 18px 50px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+.nav__btn:hover {
+  transform: scale(1.03);
+  background-color: #009379;
+  color: white;
+}
+.nav__button:hover {
+  transform: scale(1.03);
+  background-color: #00ffd0;
+  color: #009379;
+}
+.hero__button {
+  padding: 18px 50px;
+  border: 1px solid #009379;
+  border-radius: 20px;
+}
+.hero {
+  padding-top: 166px;
+}
+
+.card {
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+  margin-bottom: 120px;
+  margin-top: 60px;
+}
+.card:hover {
+  transform: scale(1.03);
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+.card a {
+  padding-bottom: 40px;
+}
+.card:hover a {
+  color: white;
+}
+.cards {
+  border-bottom: 4px solid #f2bfaf;
+  width: 270px;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 120px;
+  cursor: pointer;
+}
+.cards:hover {
+  transform: scale(1.03);
+  border-bottom: 7px solid #f2bfaf;
+  padding-bottom: 68px;
+  border-radius: 20px;
+}
+.phone__button {
+  padding: 18px 50px;
+  display: flex;
+  gap: 8px;
+  border-radius: 20px;
+  transition: 0.3s ease-in;
+}
+.phone__button:hover {
+  transform: scale(1.03);
+  background-color: #00937878;
+  color: black;
+}
+.cad {
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+.real__wrapper {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+.cad:hover {
+transform: scale(1.03);
+background-image: linear-gradient(#2E9AFF, #F498AD);
+border-radius: 30px;
+}
